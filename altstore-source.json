@@ -1,0 +1,43 @@
+{
+  "name": "ToyBox",
+  "apps": [
+    {
+      "name": "ToyBox iPad Node",
+      "bundleIdentifier": "dev.toybox.ipadnode",
+      "developerName": "ToyBox",
+      "localizedDescription": "Runs selected ToyBox Model Zoo models on iPad and exposes OpenAI-compatible and ToyBox inference APIs over the local network.",
+      "iconURL": "https://github.com/semitama/toybox-ipad-releases/releases/download/ipad-node-v0.1.0-b6/ToyBoxIPadNode-Icon.png",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "buildVersion": "6",
+          "date": "2026-10-08",
+          "localizedDescription": "First ToyBox iPad Node sideload build.",
+          "downloadURL": "https://github.com/semitama/toybox-ipad-releases/releases/download/ipad-node-v0.1.0-b6/ToyBoxIPadNode-0.1.0-b6.ipa",
+          "size": 9647026,
+          "sha256": "48fedb8474a113121983bef93ba1a90a4aefe57e6f0643420faf1a50691cf290",
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "com.apple.developer.kernel.increased-memory-limit"
+        ],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "ToyBox uses the local network to expose this iPad as a private inference node to authorized devices."
+        }
+      },
+      "subtitle": "Model Zoo inference node",
+      "tintColor": "31558A",
+      "category": "developer"
+    }
+  ],
+  "featuredApps": [
+    "dev.toybox.ipadnode"
+  ],
+  "news": [],
+  "subtitle": "ToyBox iPad inference builds",
+  "description": "Free AltStore Classic builds of the ToyBox Model Zoo inference node.",
+  "tintColor": "31558A",
+  "iconURL": "https://github.com/semitama/toybox-ipad-releases/releases/download/ipad-node-v0.1.0-b6/ToyBoxIPadNode-Icon.png"
+}
