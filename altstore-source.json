@@ -11,7 +11,7 @@
         {
           "version": "0.1.0",
           "buildVersion": "6",
-          "date": "2026-10-08",
+          "date": "2026-10-07T16:53:00Z",
           "localizedDescription": "First ToyBox iPad Node sideload build.",
           "downloadURL": "https://github.com/semitama/toybox-ipad-releases/releases/download/ipad-node-v0.1.0-b6/ToyBoxIPadNode-0.1.0-b6.ipa",
           "size": 9647026,
